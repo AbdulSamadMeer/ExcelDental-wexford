@@ -28,7 +28,7 @@
     "name": "Excel Dental of Wexford",
     "url": "https://www.exceldentalwexford.com/",
     "logo": "https://www.exceldentalwexford.com/assets/images/excel-dental-wexford-logo.png",
-    "image": "https://www.exceldentalwexford.com/assets/images/wexford-home-photo.jpg",
+    "image": "https://www.exceldentalwexford.com/assets/images/wexford-hero-photo.jpg",
     "description": "Comprehensive dental care in Wexford, PA, from routine cleanings to restorative, cosmetic, implant, oral surgery, and sleep dentistry.",
     "telephone": "+14123646523",
     "email": "exceldentalpc2@gmail.com",
@@ -40,6 +40,26 @@
       "postalCode": "15090",
       "addressCountry": "US"
     },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Monday",
+        "opens": "09:30",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "09:30",
+        "closes": "17:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "09:30",
+        "closes": "17:30"
+      }
+    ],
     "hasMap": "https://maps.google.com/?q=2622+Brandt+School+Rd+Wexford+PA+15090",
     "sameAs": [],
     "medicalSpecialty": "Dentistry",
@@ -135,8 +155,8 @@
     </div>
     <div class="hero-right">
       <img
-        src="assets/images/wexford-home-photo.jpg"
-        alt="Dental care at Excel Dental of Wexford"
+        src="assets/images/wexford-hero-photo.jpg"
+        alt="A dentist reviewing an X-ray with a patient"
         loading="eager"
       />
     </div>
@@ -146,8 +166,8 @@
   <section class="about" aria-labelledby="about-heading">
     <div class="about-left" data-reveal="fade-left">
       <img
-        src="assets/images/dr-dhileep-jinna.png"
-        alt="Dr. Dhileep Jinna"
+        src="assets/images/wexford-about-photo.jpg"
+        alt="A family with a dental professional"
         loading="lazy"
       />
     </div>
@@ -252,6 +272,44 @@
 
     <div class="services-footer fade-up">
       <a href="services.html" class="btn btn-dark">View All Services</a>
+    </div>
+  </section>
+
+  <section class="location home-location" aria-labelledby="visit-heading">
+    <div class="location-info" data-reveal="fade-left">
+      <p class="eyebrow">Visit Our Office</p>
+      <h2 id="visit-heading">Serving Wexford <em>with a smile</em></h2>
+
+      <div class="visit-address">
+        <p class="info-label">Address</p>
+        <address><a href="https://maps.app.goo.gl/ELgBJtn3nYdZm5mt8" target="_blank" rel="noopener">2622 Brandt School Road<br />Wexford, PA 15090</a></address>
+        <a class="visit-phone" href="tel:+14123646523">412-364-6523</a>
+      </div>
+
+      <div class="visit-hours">
+        <h3>Office Hours</h3>
+        <table>
+          <tbody>
+            <tr><th scope="row">Monday</th><td>9:30 AM – 5:30 PM</td></tr>
+            <tr><th scope="row">Tuesday</th><td>Closed</td></tr>
+            <tr><th scope="row">Wednesday</th><td>Closed</td></tr>
+            <tr><th scope="row">Thursday</th><td>9:30 AM – 5:30 PM</td></tr>
+            <tr><th scope="row">Friday</th><td>9:30 AM – 5:30 PM</td></tr>
+            <tr><th scope="row">Saturday</th><td>Closed</td></tr>
+            <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <a href="https://appt.link/meet-with-excel-dental-wexford-CfDi1af0/in-person-meeting" target="_blank" rel="noopener" class="btn btn-dark visit-appointment">Request Appointment</a>
+    </div>
+    <div class="location-map" data-reveal="fade-right">
+      <iframe
+        src="https://maps.google.com/maps?q=2622+Brandt+School+Rd+Wexford+PA+15090&z=15&output=embed"
+        loading="lazy"
+        title="Map to Excel Dental of Wexford at 2622 Brandt School Road"
+        allowfullscreen>
+      </iframe>
     </div>
   </section>
 
