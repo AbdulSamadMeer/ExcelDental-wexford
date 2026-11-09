@@ -1214,6 +1214,13 @@ h1,h2,h3,h4,h5 { font-family: var(--font-h); font-weight: 700; line-height: 1.15
 .contact-form { display: flex; flex-direction: column; gap: 1.25rem; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .form-group { display: flex; flex-direction: column; gap: .45rem; }
+.sms-consent { min-width: 0; border: 0; padding: 0; margin: 0; }
+.sms-consent legend { font-size: .9rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.sms-consent-options { display: flex; gap: 1.25rem; }
+.sms-consent-options label { display: inline-flex; align-items: center; gap: .4rem; font-size: .9rem; font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--dark); cursor: pointer; }
+.sms-consent-options input[type="radio"] { width: 1rem; height: 1rem; margin: 0; padding: 0; accent-color: var(--primary-dark); }
+.sms-consent p { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.55; }
+.sms-consent p a { color: var(--primary-dark); text-decoration: underline; }
 .form-group label {
   font-size: .9rem; font-weight: 700;
   text-transform: uppercase; letter-spacing: .08em; color: var(--muted);

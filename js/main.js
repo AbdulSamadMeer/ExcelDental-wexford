@@ -90,6 +90,14 @@ if (contactForm) {
       return;
     }
 
+    const smsConsent = contactForm.querySelector('[name="smsConsent"]:checked');
+    const emailSubject = contactForm.querySelector('[name="_subject"]');
+    if (emailSubject) {
+      emailSubject.value = smsConsent?.value === 'Yes'
+        ? 'SMS Consent Received - Excel Dental of Wexford'
+        : 'New Contact Form Message - Excel Dental of Wexford';
+    }
+
     const btn = contactForm.querySelector('[type="submit"]');
     if (!btn) return;
 
