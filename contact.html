@@ -152,20 +152,12 @@
           ></textarea>
         </div>
 
-        <div class="form-group" style="flex-direction:row;align-items:flex-start;gap:.6rem;">
-          <input type="checkbox" id="consent" name="consent" style="margin-top:.25rem;flex-shrink:0;accent-color:var(--primary-dark);" />
-          <label for="consent" style="font-size:.85rem;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400;">
-            I consent to Excel Dental of Wexford contacting me via email or phone regarding my inquiry.
-          </label>
-        </div>
-
         <fieldset class="sms-consent form-group">
           <legend>Consent</legend>
-          <div class="sms-consent-options">
-            <label><input type="radio" name="smsConsent" value="Yes" /> Yes</label>
-            <label><input type="radio" name="smsConsent" value="No" /> No</label>
-          </div>
-          <p>By checking this box, I consent to receive SMS messages from EXCEL DENTAL OF WEXFORD related to appointments at the phone number provided above. The SMS frequency may vary. Data rates may apply. For assistance, reply HELP. Reply STOP to opt out of receiving text messages. Please review our <a href="wexford-privacy-policy.html">Privacy Policy</a> and <a href="wexford-sms-terms.html">Terms &amp; Conditions</a>.</p>
+          <label class="sms-consent-label" for="smsConsent">
+            <input type="checkbox" id="smsConsent" name="smsConsent" value="Yes" />
+            <span>By checking this box, you agree to receive SMS messages from EXCEL DENTAL OF WEXFORD related to conversations - Appointment confirmations, scheduling, follow-up messages, etc. You may reply STOP to opt out at any time. Reply to HELP to (412)264-4609 for assistance. Messages and data rates may apply. Message frequency will vary. Learn more on our <a href="wexford-privacy-policy.html">privacy policy page</a> and <a href="wexford-sms-terms.html">Terms &amp; Conditions</a>.</span>
+          </label>
         </fieldset>
 
         <div class="form-submit">
